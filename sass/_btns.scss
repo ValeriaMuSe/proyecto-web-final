@@ -1,0 +1,82 @@
+@import'global';
+@import'./breakpoints/media';
+
+
+
+.navigation {
+  margin-top: 46px;
+  margin-bottom: 56px;
+}
+
+.navigation__btn1 {
+  border: 3px solid $purple;
+  border-radius: 15px;
+  width: 271px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 25px;
+  color: $purple;
+  margin-right: 23px;
+}
+
+.navigation__btn2 {
+  width: 139px;
+  height: 38px;
+  border: 3px solid #8244AB;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #8244AB;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.navigation__form {
+  position: relative;
+}
+
+
+@include tablet {
+  .navigation {
+    margin-left: 120px;
+  }
+
+  .navigation__btns {
+    margin-bottom: 23px;
+  }
+
+  .navigation__btn1 {
+    width: 350px;
+    height: 42px;
+  }
+
+  .navigation__btn2 {
+    width: 156px;
+    height: 42px;
+  }
+
+}
+
+
+@include desktop {
+  .navigation {
+    display: flex;
+    margin-top: 97px;
+    margin-bottom: 126px;
+    justify-content: space-between;
+    align-items: center; 
+  }
+
+  .navigation__btn1 {
+    width: 280px;
+    height: 40px;
+    font-size: 26px;
+    margin-right: 23px;
+  }
+
+  .navigation__btn2 {
+    width: 140px;
+    height: 40px;
+    font-size: 26px;
+  }
+}

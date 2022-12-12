@@ -1,0 +1,31 @@
+@import'./breakpoints/media';
+
+.navigation__form::before {
+
+  content: url('/images/lupa.png');
+  position: absolute;
+  top: 7px;
+  left: 11px;
+}
+
+.form__search {
+  width: 355px;
+  height: 38px;
+  border: 3px solid $gray;
+  border-radius: 15px;
+}
+
+@include tablet {
+  .form__search {
+    width: 401px;
+    height: 40px;
+  }
+}
+
+
+@include desktop {
+  .form__search {
+    width: 480px;
+    height: 42px;
+  }
+}
