@@ -1,0 +1,233 @@
+.color-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #333333;
+}
+
+.color__principal {
+    width: 215px;
+    height: 50px;
+    background-color: #8244AB;
+    border-radius: 7px;
+    display: flex;
+    padding: 12px;
+}
+
+.color__text {
+    margin-left: 15px;
+    width: 48px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.color__text--variant {
+    width: 59px;
+}
+
+.flex {
+    width: 230px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.flex__contain{
+    width: 50px;
+    height: 50px;
+    background: #CFB0E3;
+    border-radius: 11px;
+}
+
+.violet__1 {
+    li {
+        &:nth-child(2) {
+            background: #9F69C3;
+        }
+
+        &:nth-child(3) {
+            background: #8244AB;
+        }
+    
+        &:nth-child(4) {
+            background: #743D98;
+        }
+    }
+}
+
+.violet__2 {
+    li {
+        &:nth-child(1) {
+            background: #653585;
+        }
+
+        &:nth-child(2) {
+            background: #572E72;
+        }
+
+        &:nth-child(3) {
+            background: #48265F;
+        }
+    
+        &:nth-child(4) {
+            background: #3A1E4C;
+        }
+    }
+}
+
+.violet__3 {
+    li {
+        &:nth-child(1) {
+            background: #2B1739;
+        }
+
+        &:nth-child(2) {
+            background: #1D0F26;
+        }
+
+        &:nth-child(3) {
+            background: #0E0813;
+        }
+    
+        &:nth-child(4) {
+            background: #000000;
+        }
+    }
+}
+
+.secundario {
+    background: #3F75D9;
+}
+
+.blue__1 {
+    li {
+        &:nth-child(1) {
+            background: #A9C1F0;
+        }
+
+        &:nth-child(2) {
+            background: #6A94E2;
+        }
+
+        &:nth-child(3) {
+            background: #3F75D9;
+        }
+    
+        &:nth-child(4) {
+            background: #2964D0;
+        }
+    }
+}
+
+.blue__2 {
+    li {
+        &:nth-child(1) {
+            background: #2457B6;
+        }
+
+        &:nth-child(2) {
+            background: #1F4B9C;
+        }
+
+        &:nth-child(3) {
+            background: #1A3E82;
+        }
+    
+        &:nth-child(4) {
+            background: #153268;
+        }
+    }
+}
+
+.blue__3 {
+    li {
+        &:nth-child(1) {
+            background: #0F254E;
+        }
+
+        &:nth-child(2) {
+            background: #0A1934;
+        }
+
+        &:nth-child(3) {
+            background: #050C1A;
+        }
+    
+        &:nth-child(4) {
+            background: #050C1A;
+        }
+    }
+}
+
+.terciario {
+    background: #333333;
+}
+
+.gray__1 {
+    li {
+        &:nth-child(1) {
+            background: #777777;
+        }
+
+        &:nth-child(2) {
+            background: #4A4A4A;
+        }
+
+        &:nth-child(3) {
+            background: #333333;
+        }
+    
+        &:nth-child(4) {
+            background: #2D2D2D;
+        }
+    }
+}
+
+.gray__2 {
+    li {
+        &:nth-child(1) {
+            background: #282828;
+        }
+
+        &:nth-child(2) {
+            background: #222222;
+        }
+
+        &:nth-child(3) {
+            background: #1C1C1C;
+        }
+    
+        &:nth-child(4) {
+            background: #171717;
+        }
+    }
+}
+
+.gray__3 {
+    li {
+        &:nth-child(1) {
+            background: #111111;
+        }
+
+        &:nth-child(2) {
+            background: #0B0B0B;
+        }
+
+        &:nth-child(3) {
+            background: #060606;
+        }
+    
+        &:nth-child(4) {
+            background: #000000;
+        }
+    }
+}
+
+.contain {
+    display: flex;
+    gap: 24px;
+}
