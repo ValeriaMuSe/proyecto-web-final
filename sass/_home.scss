@@ -1,0 +1,64 @@
+@import'global';
+@import'./breakpoints/media';
+
+body {
+    margin: 0 auto;
+  }
+  
+.home {
+  background-image: url(../../images/home-img.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+}
+  
+.home_title {
+  padding-top: 120px;
+  padding-left: 27px;
+  font-size: 40px;
+  color: $white;
+  width: 85%;
+}
+  
+.home__description {
+  padding-left: 32px;
+  color: $white;
+  font-size: 19px;
+  width: 85%;
+}
+
+@include tablet {
+  .home {
+    height: 83vh;
+    margin-top: 49px;
+  }
+
+  .home_title {
+    padding-left: 50px;
+    font-size: 50px;
+  }
+
+  .home__description {
+    padding-left: 50px;
+    font-size: 25px;;
+  }
+}
+
+@include desktop {
+  .home {
+    height: 83vh;
+  }
+
+  .home_title {
+    padding-left: 100px;
+    font-size: 70px;
+    padding-top: 60px;
+    width: 75%;
+  }
+
+  .home__description {
+    padding-left: 100px;
+    font-size: 28px;
+    width: 65%;
+    margin-top: -20px;
+  }
+}
