@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sass/styles.css" />
+    <title>Design System</title>
+  </head>
+  <body>
+    <!--colors-->
+    <section>
+      <h2 class="color-title">Colores</h2>
+        <div class="contain">
+          <div>
+            <div class="color__principal">
+              <p class="color__text">HEX
+                #8244AB</p>
+              <p class="color__text color__text--variant">CMYK
+                24, 60, 0, 33</p>
+              <p class="color__text">RGB
+                130, 68, 171</p>
+            </div>
+            <div>
+              <ul class="flex violet__1">
+              <li class="flex__contain"></li>
+              <li class="flex__contain"></li>
+              <li class="flex__contain"></li>
+              <li class="flex__contain"></li>
+              </ul>
+              <ul class="flex violet__2">
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+              </ul>
+              <ul class="flex violet__3">
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <div class="color__principal secundario">
+              <p class="color__text">HEX
+                #3F75D9</p>
+              <p class="color__text color__text--variant">CMYK
+                71, 46, 0, 15</p>
+              <p class="color__text">RGB
+                63, 117, 217</p>
+            </div>
+            <div>
+              <ul class="flex blue__1">
+              <li class="flex__contain"></li>
+              <li class="flex__contain"></li>
+              <li class="flex__contain"></li>
+              <li class="flex__contain"></li>
+              </ul>
+              <ul class="flex blue__2">
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+              </ul>
+              <ul class="flex blue__3">
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <div class="color__principal terciario">
+              <p class="color__text">HEX
+                #333333</p>
+              <p class="color__text color__text--variant">CMYK
+                0, 0, 0, 80</p>
+              <p class="color__text">RGB
+                51, 51, 51</p>
+            </div>
+            <div>
+              <ul class="flex gray__1">
+              <li class="flex__contain"></li>
+              <li class="flex__contain"></li>
+              <li class="flex__contain"></li>
+              <li class="flex__contain"></li>
+              </ul>
+              <ul class="flex gray__2">
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+              </ul>
+              <ul class="flex gray__3">
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+                <li class="flex__contain"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Font-->
+    <section class="fonts">
+      <h1 class="fonts__h1">Tipografía</h1>
+      <div class="fonts--flex">
+        <div class="fonts__div--margin">
+          <h2 class="fonts__h2">Fuente</h2>
+          <p class="fonts-poppins">Poppins</p>
+        </div>
+        <div>
+          <h2 class="fonts__h2">Jerarquía</h2>
+          <div class="fonts--flex">
+            <p class="fonts__p--bold">Title</p>
+            <span class="fonts__span span1">Bold / 100px</span>
+          </div>
+          <div class="fonts--flex">
+            <p class="fonts__p--semibold">Subtitles</p>
+            <span class="fonts__span span2">Semibold / 95px y 64px</span>
+          </div>
+          <div class="fonts--flex">
+            <p class="fonts__p--medium">Body</p>
+            <span class="fonts__span span3">Medium / 32px y 25px</span>
+          </div>
+          <div class="fonts--flex">
+            <p class="fonts__p--regular">Description texts</p>
+            <span class="fonts__span span4">Regular / 28px y 13px</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Buttons-->
+    <section>
+      <h1>Botones</h1>
+      <div class="btn__section">
+        <div>
+          <div class="btn__section--position">
+            <div>
+              <p class="btn__section--p1">Normal</p>
+            </div>
+            <p class="btn__section--c">Individual</p>
+          </div>
+          <div class="btn__section--position">
+            <div>
+              <p class="btn__section--p1">Normal</p>
+            </div>
+            <button class="btn__btnForm btn--blue">Registrarse</button>
+          </div>
+          <div class="btn__section--position">
+            <div>
+              <p class="btn__section--p1">Normal</p>
+            </div>
+            <button class="btn__btnForm btn--darkBlue">Iniciar Sesión</button>
+          </div>
+          <div class="btn__section--position">
+            <div>
+              <p class="btn__section--p1">Normal</p>
+            </div>
+            <button class="btn__btnForm btn--purpleBasic"><img src="/images/white-heart.png" alt=""> Lecturas favoritas</button>
+          </div>
+        </div>
+        <div>
+          <div class="btn__section--position">
+            <div>
+              <p class="btn__section--p1">Press</p>
+            </div>
+            <button class="btn__btnForm btn--blueBasic">Individual</button>
+          </div>
+          <div class="btn__section--position">
+            <div>
+              <p class="btn__section--p1">Press</p>
+            </div>
+            <button class="btn__btnForm btn--darkBlue">Registrarse</button>
+          </div>
+          <div class="btn__section--position">
+            <div>
+              <p class="btn__section--p1">Press</p>
+            </div>
+            <button class="btn__btnForm btn--blue">Iniciar Sesión</button>
+          </div>
+          <div class="btn__section--position">
+            <div>
+              <p class="btn__section--p1">Press</p>
+            </div>
+            <button class="btn__btnForm btn--purpleTwo"><img src="/images/white-heart.png" alt=""> Lecturas favoritas</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Accordion__Search Bar-->
+    <section class="accordion">
+      <h2 class="accordion__title">Acordeones</h2>
+      <div class="accordion__general">
+        <span class="accordion__span">Normal</span>
+        <a  class="accordion__link" href="#">Acordeon <img  src="images/arrow-blue.svg" alt=""></a>
+      </div>
+      <div class="accordion__general">
+        <span class="accordion__span">Normal</span>
+        <div class="accordion__oval">
+          <a  class="accordion--link link--different" href="#">Acordeon <img src="images/arrow-grey.png" alt=""></a>
+        </div>
+        <div class="accordion__general">
+        <span class="accordion__span">Press</span>
+        <a class="accordion__link link--variant" href="">Acordeon <img src="images/arrow-lightblue.svg" alt=""></a>
+      </div>
+      <div class="accordion__general">
+        <span class="accordion__span">Normal</span>
+        <div class="accordion__oval oval--variant">
+          <a class="accordion--link" href="#">Acordeon <img  src="images/arrow-purple.png" alt=""></a>
+        </div>
+      </div>
+      <div class="search">
+        <h2 class="search__title">Search-bar</h2>
+        <div class="search__bar">
+          <img class="search__img" src="images/lupa.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!--Card-->
+    <section>
+      <!--Ema esta parte la creas tu-->
+      <h2 class="card_h2">Card</h2>
+      <div class="card">
+        <div  class="background--img">
+          <img src="images/image-icon.png" alt="imagen about money">
+        </div>
+        <h2 class="card__h2">Título del artículo</h2>
+        <p class="card__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua.</p>
+        <button class="card__button">Tema</button>
+      </div>
+    </section>
+  </body>
+</html>
