@@ -1,0 +1,31 @@
+@import'global';
+@import'./breakpoints/media';
+
+.container-butt {
+  text-align: center;
+}
+
+.container-butt__last {
+  height: 38px;
+  border: 3px solid $lightgray;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 25px;
+  color: $gray;
+}
+
+@include tablet {
+  .container-butt__last {
+    height: 40px;
+    font-size: 16px;
+  }
+
+}
+
+
+@include desktop {
+  .container-butt__last {
+    height: 40px;
+    font-size: 28px;
+  }
+}
