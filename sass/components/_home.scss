@@ -44,9 +44,6 @@ body {
 }
 
 @include desktop {
-  .home {
-    height: 83vh;
-  }
 
   .home_title {
     padding-left: 100px;
@@ -57,7 +54,7 @@ body {
 
   .home__description {
     padding-left: 100px;
-    font-size: 28px;
+    font-size: 24px;
     width: 65%;
     margin-top: -20px;
   }
